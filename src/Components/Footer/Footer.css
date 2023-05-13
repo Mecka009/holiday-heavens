@@ -1,0 +1,75 @@
+.footer{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background: #546bfd;
+    color: white;
+    margin-top: 10%;
+}
+.Heavens{
+    color: white;
+    margin-top: 80px;
+    font-size: 20px;
+    padding-right: 30px;
+    
+}
+.Heavens ul li{
+    list-style: none;
+}
+.paragraph{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-left: 10px;
+    padding-right: 20%;
+    margin-top: 20px;
+}
+.Links{
+    flex-direction: column;
+    color: white;
+    margin-right: 80px;
+    font-size: 1.5rem;
+    padding-left: 50px;
+    margin-top: 80px;
+}
+.Links ul li{
+    list-style: none;
+}
+.Information{
+    flex-direction: column;
+    margin-top: 80px;
+    margin-left: 0px;
+}
+.Information ul li{
+        list-style: none;
+}
+.Customer{
+    flex-direction: column;
+    margin-top: 80px;
+    margin-left: 10px;
+}
+.Customer ul li{
+        list-style: none;
+}
+.Questionicons{
+    flex-direction: column;
+    color: white;
+    padding-top: 5px;
+    padding-right: 60px;
+    padding-bottom: 10px;
+    margin-right: 90px;
+}
+.Questionicons ul li{
+    list-style: none;
+}
+.Questions{
+    flex-direction: column;
+    margin-top: 80px;
+    margin-left: 50px;
+    font-size: 1rem;
+}
+.Questions ul li{
+        list-style: none;
+}

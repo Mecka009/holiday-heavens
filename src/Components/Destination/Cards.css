@@ -1,0 +1,38 @@
+.row1{
+    margin: 45px 20% 45px 45%;
+    font-size: 80px;
+    color: black;
+    }
+.section-margin-top a{
+    text-decoration: none;
+    color: black;
+}
+.row{
+    width: 95%;
+    height: 400px;
+    margin-left: 10px;
+    cursor: pointer;
+    
+    color: black;
+}
+.row a{
+    text-decoration: none;
+}
+.row2{
+    margin: 15% 60px 45px 45%;
+    font-size: 80px;
+    }
+.row3{
+    margin: 15% 60px 45px 45%;
+    font-size: 80px;
+}
+.tm-home-box-2-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0px;
+    font-size: 20px;
+}
+.tm-home-box-2{
+    margin-bottom: 20px;
+    font-size: 20px;
+}

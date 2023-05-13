@@ -1,0 +1,256 @@
+.trips{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+.Heading{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+.Heading h1{
+    font-size: 5rem;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-left: 1%;
+}
+.Heading ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Heading ul li{
+    list-style-type: none;
+}
+.trips{
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 80%;
+    text-decoration: none;
+}
+.button{
+    font-size: 1.5rem;
+    color: rgb(244, 244, 248);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 70%;
+    text-decoration: none;
+}
+.lineUp {
+    animation: rotate-text-up 2s .75s; ;
+  }
+  @keyframes rotate-text-up { 
+    0% {
+      transform: translate3d(0, 80px, 0);
+      opacity: 0;
+    }
+    
+    20%, 80% {
+      transform: translate3d(0, 0, 0);
+      opacity: 1;
+    }
+    
+    100% {
+      transform: translate3d(0, -40px, 0);
+      opacity: 0;
+    }
+  }
+  .card{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 10%;
+  }
+  .card ul{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px;
+    padding: 0px;
+    height: 400px;
+    width: 100%;
+  }
+  .display{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    width: 90%;
+    height: 80vh;
+    padding-bottom: 50px;
+  }
+  .display1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    width: 90%;
+    height: 80vh;
+    padding-bottom: 50px;
+  }
+  .display1 ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: none;
+  }
+  .display1 ul li{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    margin-left: 40px;
+  }
+  .title h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  .title h6{
+    display: flex;
+    justify-content: center;
+  }
+  .title h3{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  .title h2{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    text-decoration-style: bold;
+  }
+  .Holiday{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    width: 90%;
+    padding-bottom: 50px;
+  }
+  .Holiday ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: none;
+    margin-left: 80px;
+  }
+  .Holiday ul li{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    margin-left: 80px;
+  }
+  .International{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    width: 90%;
+    padding-bottom: 50px;
+  }
+  .International ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: none;
+    margin-left: 80px;
+  }
+  .International ul li{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    margin-left: 80px;
+  }
+  .Trekking{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    width: 90%;
+    padding-bottom: 50px;
+  }
+  .Trekking ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: none;
+    margin-left: 80px;
+  }
+  .Trekking ul li{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    margin-left: 80px;
+  }
+  .banner{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 15%;
+    width: 70%;
+    height: 50vh;
+  }
+  .Themes{
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 0%;
+    margin-left: 10%;
+    
+  }
+  .Themes ul{
+    display: flex;
+    justify-content: center;
+    margin: 0px 20px 0px 50px;
+    height: 200px;
+    border: 1px solid rgb(208, 208, 208);
+  }
+  .Themes ul li{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 10px 45px 10px 0px; 
+}
+.icon{
+        width: 100px;
+        height: 200px;
+        background: #2e02dc;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+  }
+  .Names{
+    display: flex;
+    margin-left: 10%;
+  }
+  .Names ul{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin: 20px 10px 50px 40px;
+    padding-right: 25px;
+    height: 0px;
+  }
+  .Names ul li{
+    list-style: none;
+    margin: 20px 20px 10px 5px;
+  }
+  .themes{
+    margin-bottom: 100px;
+    text-align: center;
+    padding-left: 50px;
+  }
